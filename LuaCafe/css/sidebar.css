@@ -1,0 +1,43 @@
+#sidebar{
+    padding-top: 40px;
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    background-color: var(--azul);
+}
+.__titulo_sidebar {
+    color: var(--marrom);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 32px;
+}
+#sidebar a {
+    color: var(--marrom);
+    font-weight: 500;
+    transition: .5s;
+    text-decoration: none;
+}
+#sidebar a:hover{
+    color: var(--azul-escuro);
+
+}
+#sidebar li{
+    margin-left: 40px;
+    padding: 20px;
+}
+#sidebar-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+.logo-lua{
+    width: 100px;
+    height: auto;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}

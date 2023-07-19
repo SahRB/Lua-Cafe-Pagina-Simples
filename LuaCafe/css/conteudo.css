@@ -1,0 +1,103 @@
+.content {
+	position: absolute;
+	left: 300px;
+	width: calc(100% - 300px);
+}
+
+ .content h2 {
+	color: var(--marrom);
+	margin-bottom: 30px;
+}
+
+
+.content h2 {
+	font-size: 35px;
+}
+
+section {
+	padding-left: 50px;
+}
+
+/* bem vindo */
+
+#sessao-bemvindo {
+	padding-left: 0;
+}
+
+.sessao-bemvindo-content {
+	padding-left: 50px;
+}
+
+#sessao-bemvindo .banner {
+	height: 500px;
+	background-image: url('../img/banner2.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+#sessao-bemvindo h2 {
+	margin-top: 70px;
+}
+
+#sessao-bemvindo::after, #sessao-sobre::after {
+	content: "";
+	display: block;
+	clear: both;
+	margin-bottom: 170px;
+}
+
+.sessao-minibanner {
+	width: 300px;
+	height: 400px;
+	background-image: url('../img/banner3.jpg');
+	background-position: center;
+	background-size: cover;
+	float: left;
+    border: 3px solid var(--rosa);
+    border-radius: 200px 200px 0 0;
+}
+
+.sessao-descricao {
+	position: absolute;
+	left: 370px;
+	padding-right: 30px;
+}
+
+.sessao-descricao p {
+	line-height: 2;
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-left: 25px;
+    font-family: var(--fonte-principal);
+}
+.sessao-bemvindo-btn, form input[type=submit] {
+	background-color: var(--azul);
+	color: var(--azul-escuro);
+    font-weight: 500;
+	text-decoration: none;
+	padding: 20px 40px;
+	transition: .5s;
+	display: block;
+	width: 100px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	margin-left: 25px;
+}
+.sessao-bemvindo-btn:hover, form input[type=submit]:hover {
+	background-color: var(--rosa);
+}
+#sessao-sobre .sessao-minibanner{
+    float: right;
+    margin-right: 50px;
+    background-image: url(../img/banner4.jpg);
+    border: 3px solid var(--rosa);
+}
+#sessao-sobre .sessao-descricao{
+    position: absolute;
+    left: 25px;
+    width: calc(100% - 400px);
+}
+
+
+/* contato */

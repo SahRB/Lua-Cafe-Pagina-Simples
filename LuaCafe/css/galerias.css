@@ -1,0 +1,82 @@
+
+/* galeria */
+.banner-galeria{
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    height: 200px;
+    
+}
+#sessao-cafes, #sessao-cookies, #sessao-outros{
+
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+.cafes-imgs{
+    width: 18.8%;
+    margin-left: .5%;
+    margin-right: .5%;
+}
+#img1{
+    background-image: url('../img/cafe1.jpg');
+    margin-left: 0;
+}
+#img2{
+    background-image: url('../img/cafe2.jpg');
+    
+}
+#img3{
+    background-image: url('../img/cafe3.jpg');
+    
+}
+#img4{
+    background-image: url('../img/cafe4.jpg');
+    
+}
+#img5{
+    background-image: url('../img/cafe5.jpg');
+    margin-right: 0;
+    
+}
+.cookies-imgs {
+	width: 23.9%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+#img6 {
+	background-image: url('../img/cookie1.jpg');
+	margin-left: 0;
+}
+
+#img7 {
+	background-image: url('../img/cookie2.webp');
+}
+
+#img8 {
+	background-image: url('../img/cookie3.webp');
+}
+
+#img9 {
+	background-image: url('../img/cookie4.avif');
+	margin-right: 0;
+}
+.outros-imgs {
+	width: 32.3%;
+	margin-left: .5%;
+	margin-right: .5%;
+}
+
+#img10 {
+	background-image: url('../img/outros1.jpg');
+	margin-left: 0;
+}
+
+#img11 {
+	background-image: url('../img/outros2.webp');
+}
+
+#img12 {
+	background-image: url('../img/outros3.jpg');
+	margin-right: 0;
+}
