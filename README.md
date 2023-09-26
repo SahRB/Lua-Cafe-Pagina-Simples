@@ -12,5 +12,3 @@
 <img src="5.png"  frameBorder="0"  allowFullScreen>
 </div>
  Utilizada para aprimorar conhecimentos em HTML e CSS, seu maior "desafio" é alinhar os elementos da página, utilizei algumas vezes o "Calc" em CSS para alinhar e fazer os elementos ocuparem seu espaço de forma correta. Também utilizei a propriedade "Clear" com o valor both no inicio da página para impedir que os elementos flutuassem. Separei cada parte do código CSS em arquivos diferentes para a vizualização.
- 
- Simples, mas pode servir para qualquer iniciante treinar suas habilidades, fique à vontade para usar meu código 🍪❤️
